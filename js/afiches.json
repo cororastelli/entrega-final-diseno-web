@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Ritmo nocturno",
+    "categoria": "Diseño gráfico",
+    "descripcion": "Un afiche inspirado en la música y las luces de la ciudad durante la noche.",
+    "imagen": "img/ritmo-nocturno.png"
+  },
+  {
+    "titulo": "Ciudad en movimiento",
+    "categoria": "Diseño editorial",
+    "descripcion": "Una composición que representa los recorridos y encuentros que suceden en el espacio urbano.",
+    "imagen": "img/ciudad-movimiento.png"
+  },
+  {
+    "titulo": "Naturaleza cercana",
+    "categoria": "Comunicación visual",
+    "descripcion": "Una pieza que observa las formas y los colores presentes en el paisaje cotidiano.",
+    "imagen": "img/naturaleza-cercana.png"
+  }
+]

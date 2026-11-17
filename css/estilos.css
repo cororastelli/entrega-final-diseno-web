@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,slnt,wdth,wght,ROND@1..144,-10..0,25..151,1..1000,0..100&family=Limelight&family=Martel:wght@300;900&display=swap');
+
+:root {
+  --verde-archivo: #BFFFBC;
+  --gris-archivo: #A8AEC1;
+  --oscuro-archivo: #333;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Google Sans Flex", sans-serif;
+  background-color: var(--gris-archivo);
+}
+
+h1, h2 {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2, .h4 {
+  font-size: 2.5rem;
+}
+
+.navbar-brand {
+  font-family: "Martel", serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+header h1 {
+  line-height: 1.2;
+}
+
+strong {
+  font-weight: 900;
+}
+
+header {
+  background-color: var(--verde-archivo);
+  color: var(--oscuro-archivo);
+  border-bottom: 3px solid var(--oscuro-archivo) !important;
+}
+
+#detalles-afiche {
+  border-radius: 12px;
+  border-top: 4px solid var(--oscuro-archivo) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+#detalles-afiche img {
+  width: 100%;
+  border-radius: 8px;
+  padding: 5px;
+  background-color: #f1eeee;
+  max-height: 420px;
+  object-fit: contain;
+  transition: all 2s;
+}
+
+#detalles-afiche img:hover {
+  transform: rotate(5deg);
+  opacity: 0.8;
+}
+
+#menu-afiches button {
+  font-size: 1.5rem;
+  padding: 12px 15px;
+  border: 1px solid #6c757d;
+  font-family: "Martel", serif;
+  font-weight: 300;
+  border-radius: 8px;
+  transition: transform 0.5s linear;
+}
+
+#menu-afiches button:hover {
+  background-color: var(--verde-archivo);
+  color: var(--oscuro-archivo);
+  transform: translate(10px);
+}
+
+#proyecto img {
+  width: 100%;
+  border-radius: 8px;
+  padding: 5px;
+  background-color: #f1eeee;
+  transition: all 2s;
+}
+
+#proyecto img:hover {
+  transform: rotate(5deg);
+  opacity: 0.8;
+}
+
+a {
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--oscuro-archivo);
+}
+
+footer {
+  background-color: var(--oscuro-archivo);
+  border-top: 2px solid var(--verde-archivo);
+  letter-spacing: 1px;
+  font-size: 1.2em;
+}
+
+.fade {
+  transition-duration: 0.2s !important;
+}
