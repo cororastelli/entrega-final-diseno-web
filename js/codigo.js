@@ -9,7 +9,7 @@ fetch("js/afiches.json")
         <button class="btn btn-secondary border border-secondary text-start"
                 onclick="mostrarAfiche('${afiche.titulo}')">
           ${afiche.titulo}
-        </button>
+        </button> 
       `;
     });
 
